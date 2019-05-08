@@ -1,0 +1,53 @@
+h1{
+    color: blue;
+   
+}
+.para{
+    margin: 25px 50px 75px 100px;
+    padding: 25px 50px 75px 100px;
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+h1{
+    background-image: url("/home/shweta/htmlproject/image/64xk850n3a8uzse6fi11l3vmz.jpeg");
+    margin: 25px 50px 75px 100px;
+
+    
+}
+
+div {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+    padding: 10px;
+    border: 5px solid gray;
+  }
+
+
+  p {outline-color:red;}
+
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+
+
+a {
+    text-decoration: none;
+  }
+
+
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }

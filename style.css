@@ -1,0 +1,110 @@
+.input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.properties {
+    /* padding */
+    padding: 1px;
+    padding: 1px 1px;
+    padding: 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    /* margin */
+    margin: 1px;
+    margin: 1px 1px;
+    margin: 1px 1px 1px;
+    margin: 1px 1px 1px 1px;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    /* background */
+    background-image: url("img_tree.gif");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: coral;
+    background-origin: content-box;
+    background-clip: padding-box;
+    /* border */
+    border: 5px solid red;
+    border: 4px dotted blue;
+    border: double;
+    border-bottom: 5px solid red;
+    border-bottom-color: coral;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-style: dotted;
+    border-bottom-width: thin;
+    border-top: 5px solid red;
+    border-top-color: coral;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-style: dotted;
+    border-top-width: thin;
+    border-right: 5px solid red;
+    border-right-color: coral;
+    border-right-style: dotted;
+    border-right-width: thin;
+    border-left: 5px solid red;
+    border-left-color: coral;
+    border-left-style: dotted;
+    border-left-width: thin;
+    border-collapse: separate;
+    border-collapse: collapse;
+    border-color: coral;
+    border-image: url(border.png) 30 round;
+    border-image-outset: 10px;
+    border-image-repeat: repeat;
+    border-image-slice: 30%;
+    border-image-source: url(border.png);
+    border-image-width: 10px;
+    border-radius: 25px;
+    border-collapse: separate;
+    border-spacing: 15px 50px;
+    box-shadow: 5px 10px #888888;
+    box-sizing: border-box;
+    /* text */
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-decoration: none;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 0.8;
+    direction: rtl;
+    word-spacing: 10px;
+    text-shadow: 3px 2px red;
+    white-space: nowrap;
+    white-space: normal;
+    white-space: pre;
+    text-overflow: ellipsis;
+    vertical-align: baseline;
+    vertical-align: text-top;
+    vertical-align: text-bottom;
+    vertical-align: sub;
+    vertical-align: super;
+}

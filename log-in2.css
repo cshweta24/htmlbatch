@@ -1,0 +1,33 @@
+.firstDiv {
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px rgb(187, 186, 186);
+    width: 350px;
+    /* background-image: url(/home/sanket-p/Downloads/Chicken.jpg);
+    background-size: 350px;
+    background-repeat: repeat-y;
+    opacity: 0.5; */
+    /* display: flex; */
+    /* position: fixed; */
+}
+
+.firstDiv1 {
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px rgb(187, 186, 186);
+    width: 350px;
+    background-image: url(/home/shweta/htmlproject/image/carousel-starhub-innovates-brand-campaign.jpg);
+    background-size: 350px;
+    background-repeat: repeat-y;
+    opacity: 0.2;
+    height: 611px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.FirstP {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+    /* border: 1px solid; */
+    color: blue;
+}

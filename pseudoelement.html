@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+ p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+
+h1::before {
+  content: url(/home/shweta/htmlproject/image/64xk850n3a8uzse6fi11l3vmz.jpeg);
+}
+
+
+
+/* img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier }*/
+
+
+
+
+
+  img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: rgb(62, 77, 165);
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+        <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+
+
+        <h1>This is a heading</h1>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<img src="/home/shweta/htmlproject/image/Instagram.jpg" alt="Forest" width="170" height="100">
+
+
+
+<h2>Vertical Navigation Bar</h2>
+<p>In this example, we create an "active" class with a green background color and a white text. The class is added to the "Home" link.</p>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+
+
+
+
+</body>
+</html>
