@@ -7,40 +7,85 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-        Your date of birth:  
-        <input id="d">
-      </p> 
-    
-      <p>
-        Your age: <span id="age"></span>
-      </p> 
   
-      <script>
-//    function MyDate(getName){
 
-// var tempDate  = new Date();
-// var day = tempDate.getDate()
-// var month = tempDate.getMonth()+1;
-// var fullYear=tempDate.getFullYear()
-//    }
+<div>
+  Day:<input type="text" id="txtday">
+  Month:<input type="text" id="txtmonth">
+  year:<input type="text" id="txtyear" onblur="CalculateAge();">
+
+      <input type="button" value="Calculate Age" onclick="CalculateAge();">
+      <span id="Age"></span>
+    </div>
+  
+
+<script type="text/javascript">
+// function getAge(DOB) {
+//   var today = new Date();
+//   var birthDate = new Date(DOB);
+//   var age = today.getFullYear() - birthDate.getFullYear();
+//   var m = today.getMonth() - birthDate.getMonth();
+//   if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+//       age = age - 1;
+//   }
+
+//   return age;
+// }
+
+// alert(getAge("8/17/1981"));
 
 
-// // console.log(calculate_age(new Date(1982, 11, 4)));
-//    document.getElementById('d').value= "newDate"; 
-
-//        var ageCal = tempDate - newDate;
-
-// document.getElementById('age').innerHTML=(ageCal);
 
 
 
+// function calculate_age(dob) { 
+//     var diff_ms = Date.now() - dob.getTime();
+//     var age_dt = new Date(diff_ms); 
+  
+//     return Math.abs(age_dt.getUTCFullYear() - 1970);
+// }
+
+// console.log(calculate_age(new Date(1982, 11, 4)));
+
+function CalculateAge(){
+  var curYear=new Date().getUTCFullYear();
+  var agev= curYear-document.getElementById("txtyear").value;
+  document.getElementById('Age').innerHTML=age;
+}
 
 
 
 
+// var tempDate=new Date();
+// var day,month,year;
+// function MyDate()
+// {
+//   var day = tempDate.getDate()
+//     var month = tempDate.getMonth()+1;
+//     var year=tempDate.getYear()
+// }
 
+// MyDate()
+// console.log('date',day+" "+month+" "+year);
 
-               </script>
+// function clickDate()
+// {
+//   var newDate=document.getElementById('birthDate').value;
+//   console.log('newDate',newDate);
+
+//   var givenYear=parseInt(newDate,subsstr(6,4))
+//   console.log('givenYear',givenYear);
+
+//   var ageCal=year-givenYear;
+//   console.log('Age',ageCal);
+
+//   document.getElementById('age').value=ageCal;
+//   console.log('Age',ageCal +"Years");
+  
+  
+  
+// }
+
+</script>
 </body>
 </html>
