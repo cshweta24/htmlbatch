@@ -1,0 +1,25 @@
+
+<html>
+<body>
+<div>
+        Day:<input type="text" id="txtday" />
+        Month:<input type="text" id="txtMonth" />
+        Year:<input type="text" id="txtYear" onblur="CalculateAge();" />
+        <input type="button" value="Calculate Age" onclick="CalculateAge();" />
+        <span id="Age"></span>
+    </div>
+    <script type="text/javascript">
+
+
+        function CalculateAge() {
+
+
+            var curYear = new Date().getUTCFullYear();
+            var age = curYear - document.getElementById('txtYear').value;
+            document.getElementById('Age').innerHTML = age;
+            
+        }
+         
+    </script>
+</html>
+</body>
